@@ -21,31 +21,29 @@ class MyApp extends StatelessWidget {
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-              Container(
-                child: Column(
-                  children: [
-                    const CircleAvatar(
-                        radius: 50.0,
-                        backgroundImage: AssetImage("images/angela.jpg")),
-                    const Text(
-                      'Angela Vu',
-                      style: TextStyle(
-                          fontFamily: 'Pacifico',
-                          fontSize: 40,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
-                    ),
-                    Text(
-                      'FLUTTER DEVELOPER',
-                      style: TextStyle(
-                          fontSize: 20,
-                          fontFamily: 'Source Sans Pro',
-                          color: Colors.teal.shade100,
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 2.5),
-                    )
-                  ],
-                ),
+              Column(
+                children: [
+                  const CircleAvatar(
+                      radius: 50.0,
+                      backgroundImage: AssetImage("images/angela.jpg")),
+                  const Text(
+                    'Angela Vu',
+                    style: TextStyle(
+                        fontFamily: 'Pacifico',
+                        fontSize: 40,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    'FLUTTER DEVELOPER',
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: 'Source Sans Pro',
+                        color: Colors.teal.shade100,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 2.5),
+                  )
+                ],
               ),
               SizedBox(
                 height: 20.0,
